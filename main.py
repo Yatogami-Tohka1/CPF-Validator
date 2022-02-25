@@ -1,7 +1,4 @@
-entrada = input()
-a = entrada.replace('', '.')
-c = a.replace('.', '', 1)
-cpf = c.split('.')
+cpf = [ v for v in input("Insira seu CPF: ")]
 resultado1 = []
 resultado2 = []
 soma1 = 0
